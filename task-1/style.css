@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    font-family: 'Staatliches', cursive;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Staatliches&display=swap');
+::-webkit-scrollbar{
+    width: 8px;
+    
+}
+::-webkit-scrollbar-thumb{
+    
+    background-color: rgb(0, 0, 160);
+    width: 10px;
+
+}
+#dd{
+    text-align: center;
+}
+.header{
+    width: 100%;
+    height: 90vh;
+    background-image: url("Background\ image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-clip: content-box; 
+    display: flexbox; 
+    flex-wrap: wrap;
+    overflow: hidden;
+    font-display:inherit;
+}
+
+.navgation_bar{
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+      flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.company_logo {
+    
+display: flex;
+      flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    cursor: pointer;
+   
+    
+}
+.company_logo img{
+    width: 80px;
+    height: auto;
+    box-shadow:10cap;
+   
+}
+.company_name{
+    color: white;
+    width: fit-content;
+    font-size: 1rem;
+    margin-left: -10px;
+    
+}
+.cc{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+.global{
+    color: white;
+}
+.arrow_down{
+    color: white;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.languange_english h4{
+
+    color: rgb(255, 255, 255);
+    margin-left: 8px;
+}
+.languange_english {
+    display: flex;
+ 
+      flex-direction: row;
+    justify-self: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px;
+}
+.totl :hover{
+    opacity: 70%;
+}
+.main_body {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+.main_body{
+    color: white;
+    padding: 25px;
+    text-align: center;
+    margin-top: 2rem;
+}
+.tagline{
+   opacity: 90%;
+padding: 10px;
+margin-top: 1rem;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.search_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    
+   
+}
+.supports{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.supports h3{
+    color: white;
+    font-size: 13px;
+    
+}
+.button{
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(0, 0, 198);
+    
+    color: white;
+    
+}
+#search_box{
+    text-decoration: none;
+    border-style: none;
+    background: white;
+    min-width: 220px;
+    cursor: pointer;
+    height: 40px;
+    border: 3px solid white;
+    border-radius: 5px 0px 0 5px;
+    padding-left: 10px;
+}
+.our_motive{
+    width: 100%;
+    height: 90vh;
+   background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+}
+.motive , .services2{
+    margin-top: 2rem;
+    font-weight: 400;
+    animation: opening2 2s ease-out;
+}
+.stylish_box{
+    width: 85%;
+    height: 20rem;
+    background-image: url("AAA_001_16x9.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    box-shadow: 10px 15px rgb(255, 234, 0);
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    animation: opening 0.2s ease-out;
+}
+@keyframes opening2 {
+    0%{
+        opacity: 30%;
+        margin-top: 90px;
+    }
+    100%{
+        margin-top: 30px;
+       opacity: 100%;
+    }
+}
+@keyframes opening {
+    0%{
+        width: 65%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+.our_motive .ema {
+    line-height: 140%;
+    padding: 10px 30px;
+    margin-top: -4px;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.our_motive p{
+    margin-top: 40px;
+    padding: 10px;
+
+}
+
+.our_services{
+    width: 100%;
+   
+    background-color: rgb(0, 0, 0);
+}
+
+.thanks{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(0, 0, 26);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thanks img{
+    width: 25px;
+}
+.thanks h3{
+    color:white;
+}
+
+.our_services{
+    width: 100%;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+.shape{
+    width: 280px;
+    height: 300px;
+    box-shadow: 10px 10px 100px yellow;
+    border-radius: 20px;
+    background-color:#4d4545;
+}
+.shapeLenght{
+    width: 50%;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+
+.services2{
+    color: rgb(255, 255, 255);
+   
+}
+.services2{   
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.part1{
+    width: 260px;
+    height:260px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+.last_one{
+    margin-bottom: 60px;
+}
+.services_list{ cursor: pointer;
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 50px;
+}
+.part1{
+    text-align: center;
+    padding: 20px;
+    background: url("https://img.freepik.com/premium-photo/purple-wallpapers-that-will-make-you-want-get-purple-wallpapers-your-desktop_894754-1029.jpg");
+}
+.part2{
+    background: url("https://img.freepik.com/premium-photo/purple-wavey-abstract-light-background_974729-3777.jpg");
+}
+.part1 p{
+    font-size: 11.5px;
+    line-height: 140%;
+    color: rgb(255, 255, 255);  
+    
+}
+.ddaa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    opacity: 70%;
+}
+.scroll_bar{
+    width: 2px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.954);
+    margin-left: 9.5px;
+    margin-top: 10px;
+    border-radius: 100px;
+    animation: scrolldown 1s infinite linear ;
+}
+#cele{
+    color: white;
+    opacity: 100%;
+}
+@keyframes scrolldown{
+    0%{
+        margin-top: 7px;
+        opacity: 100%;
+    }
+    100%{
+        margin-top: 15px;
+        opacity: 30%;
+    }
+}
+
+.drag_down{
+    width: 25px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+@media screen and (min-width: 700px) {
+    #search_box{
+        text-decoration: none;
+        border-style: none;
+        background: white;
+        min-width: 420px;
+        cursor: pointer;
+        height: 60px;
+        font-size: 18px;
+        
+        border: 3px solid white;
+        border-radius: 5px 0px 0 5px;
+        padding-left: 10px;
+    }
+
+    .button{
+        width: 140px;
+        height: 60px;
+        text-decoration: none;
+        border-style: none;
+        font-size: 18px;
+        border-radius: 0px 5px 5px 0px;
+        background-color: rgb(0, 0, 198);  
+        color: white;
+        
+    }
+    .ddaa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+        opacity: 80%;
+        margin-top: 0%;
+    }
+    .cc{
+        font-size: 50px;
+        margin-bottom: -20px;
+    }
+}
+@media screen and (min-width: 2200px) 
+{ #search_box{
+ 
+    min-width: 220px;
+    height: 40px;
+    
+}
+.button{
+    width: 100px;
+    height: 40px;
+}
+.ddaa{
+    margin-top: -15%;
+    height: 15vh;
+    opacity: 10%;
+}
+
+}
